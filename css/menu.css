@@ -1,0 +1,245 @@
+#bs-example-navbar-collapse-1 {
+    margin-left: 280px;
+}
+.ctl-logo-section {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+}
+.ctl-logo-section>span {
+    font-size: 22px;
+    vertical-align: top;
+    margin-top: 8px;
+    display: inline-block;
+    color: white;
+    font-style: italic
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color: #9bd72a; //#2b83bd;
+    background-image: none;
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    padding-top: 5px;
+    padding-left: 5px;
+      padding-right: 5px;
+}
+.navbar.navbar-default.navbar-static-top {
+    background-image: url('../img/texture1.jpg');
+    background-repeat: repeat-x;
+}
+.nav.navbar-nav>li {
+    margin-left: 20px;
+    margin-top: 1px;
+    border: 1px solid lightgray;
+}
+.nav.navbar-nav>li>a {
+    height: 39px;
+    margin: 1px;
+}
+.nav.navbar-nav>li:last-child {
+    float: right;
+    /* display: inline-block; */
+    position: absolute;
+    right: 5px;
+}
+.nav.navbar-nav {
+    margin-top: 2px;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-left: 5px;
+}
+.dropdown-menu .divider {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: lightgray;
+}
+.dropdown-menu {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.dropdown-menu>li>a {
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: gray
+}
+.dropdown-menu>li>a:hover {
+    background-color: #9bd72a;// #2b83bd;
+    background-image: none;
+    color: white;
+}
+.dropdown-menu>li>a:hover span {
+    color: white;
+}
+li.active>a {
+    background-color: #2b83bd;
+    background-image: none;
+    color: white;
+}
+.ctl-menu-text {
+    vertical-align: top;
+    margin-top: 7px;
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+.ctl-menu-text-link {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+.ctl-menu-icon {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    margin-top: 3px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #9bd72a;
+    background-image: none;
+    color: white;
+}
+.navbar-default .navbar-nav>li.dropdown.open>a {
+    background-color: #2b83bd;
+    background-image: none;
+    color: white;
+}
+.navbar-nav>li>a {
+    padding-bottom: 4px;
+    padding-top: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+span.caret {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 14px;
+    margin-left: 4px;
+}
+.ctl-menu-calendar>i {
+    background-image: url('../img/menu/calendar-unselected.png');
+}
+.ctl-menu-calendar:hover>i {
+    background-image: url('../img/menu/calendar-selected.png');
+}
+.ctl-menu-link>i {
+    background-image: url('../img/menu/link-unselected.png');
+}
+.ctl-menu-link:hover>i {
+    background-image: url('../img/menu/link-selected.png');
+}
+.ctl-menu-communication>i {
+    background-image: url('../img/menu/communication-unselected.png');
+}
+.ctl-menu-communication:hover>i {
+    background-image: url('../img/menu/communication-selected.png');
+}
+.ctl-menu-documents>i {
+    background-image: url('../img/menu/documents-unselected.png');
+}
+.ctl-menu-documents:hover>i {
+    background-image: url('../img/menu/documents-selected.png');
+}
+.ctl-menu-multimedia>i {
+    background-image: url('../img/menu/multimedia-unselected.png');
+}
+.ctl-menu-multimedia:hover>i,
+.dropdown.open> .ctl-menu-multimedia>i {
+    background-image: url('../img/menu/multimedia-selected.png');
+}
+.ctl-menu-goals>i {
+    background-image: url('../img/menu/goals-unselected.png');
+}
+.ctl-menu-goals:hover>i {
+    background-image: url('../img/menu/goals-selected.png');
+}
+.ctl-menu-awards>i {
+    background-image: url('../img/menu/awards-unselected.png');
+}
+.ctl-menu-awards:hover>i {
+    background-image: url('../img/menu/awards-selected.png');
+}
+.ctl-menu-dojo>i {
+    background-image: url('../img/menu/dojo-unselected.png');
+}
+.ctl-menu-dojo:hover>i {
+    background-image: url('../img/menu/dojo-selected.png');
+}
+.ctl-menu-club>i {
+    background-image: url('../img/menu/club-unselected.png');
+}
+.ctl-menu-club:hover>i,
+.dropdown.open> .ctl-menu-club>i {
+    background-image: url('../img/menu/club-selected.png');
+}
+.ctl-menu-information>i {
+    background-image: url('../img/menu/information-unselected.png');
+}
+.ctl-menu-information:hover>i,
+.dropdown.open> .ctl-menu-information>i {
+    background-image: url('../img/menu/information-selected.png');
+}
+.ctl-menu-images>i {
+    background-image: url('../img/menu/camera-unselected.png');
+}
+.ctl-menu-images:hover>i {
+    background-image: url('../img/menu/camera-selected.png');
+}
+.ctl-menu-videos>i {
+    background-image: url('../img/menu/video-unselected.png');
+}
+.ctl-menu-videos:hover>i {
+    background-image: url('../img/menu/video-selected.png');
+}
+.ctl-menu-login>i {
+    background-image: url('../img/menu/lock-unselected.png');
+}
+.ctl-menu-login:hover>i {
+    background-image: url('../img/menu/lock-selected.png');
+}
+.ctl-menu-home>i {
+    background-image: url('../img/menu/home-unselected.png');
+}
+.navbar-default .navbar-nav>.active>a.ctl-menu-home>i,
+.ctl-menu-home:hover>i {
+    background-image: url('../img/menu/home-selected.png');
+}
+
+.ctl-menu-athlete>i {
+    background-image: url('../img/menu/athlete-unselected.png');
+}
+.ctl-menu-athlete:hover>i {
+    background-image: url('../img/menu/athlete-selected.png');
+}
+
+.ctl-menu-master>i {
+    background-image: url('../img/menu/master-unselected.png');
+}
+.ctl-menu-master:hover>i {
+    background-image: url('../img/menu/master-selected.png');
+}
+
+.ctl-menu-board>i {
+    background-image: url('../img/menu/managment-unselected.png');
+}
+.ctl-menu-board:hover>i {
+    background-image: url('../img/menu/managment-selected.png');
+}
+.ctl-menu-location>i {
+    background-image: url('../img/menu/location-unselected.png');
+}
+.ctl-menu-location:hover>i {
+    background-image: url('../img/menu/location-selected.png');
+}
+.ctl-menu-schedule>i {
+    background-image: url('../img/menu/schedule-unselected.png');
+}
+.ctl-menu-schedule:hover>i {
+    background-image: url('../img/menu/schedule-selected.png');
+}
+.ctl-menu-session>i {
+    background-image: url('../img/menu/session-unselected.png');
+}
+.ctl-menu-session:hover>i {
+    background-image: url('../img/menu/session-selected.png');
+}
