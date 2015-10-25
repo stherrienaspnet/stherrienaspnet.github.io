@@ -1,0 +1,157 @@
+<!doctype html>
+<!-- Our uiRouterSample module defined here -->
+<html lang="en" ng-app="uiRouterSample">
+
+<head>
+    <meta charset="utf-8">
+    <!--    <link rel="stylesheet" type="text/css" href="css/reset.css">-->
+    <!-- using twitter bootstrap, but of course -->
+    <link rel="stylesheet" type="text/css" href="app/public/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app/public/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+    <!-- styles for ng-animate are located here -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+
+    <!-- Include angular.js, angular-animate.js and angular-ui-router.js-->
+    <script src="vendors/angular.js"></script>
+    <script src="vendors/angular-animate.js"></script>
+    <script src="vendors/angular-ui-router.js"></script>
+    <script src="app/public/lib/jquery/dist/jquery.min.js"></script>
+    <script src="app/public/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- app.js declares the uiRouterSample module and adds items to $rootScope, and defines
+         the "home" and "about" states
+    -->
+    <script src="app/app.js"></script>
+
+    <!-- contacts.js declares the uiRouterSample.contacts module, and adds a number of contact
+         related states 
+    -->
+    <script src="app/contacts/contacts.js"></script>
+
+    <!-- contacts-service.js, and utils-service.js define services for use by the 
+         uiRouterSample.contacts module.
+    -->
+    <script src="app/contacts/contacts-service.js"></script>
+    <script src="common/utils/utils-service.js"></script>
+
+    <!-- could easily use a custom property of the state here instead of 'name' -->
+    <title>Club Taekwondo Laval</title>
+</head>
+
+<body>
+    <div class="steph"></div>
+    <nav class="navbar navbar-default navbar-static-top" style="height:35px;">
+        <div class="container">
+            <div class="ctl-logo-section">
+                <span class="ctl-menu-text">Club Taekwondo Laval</span>
+                <img src="img/logo.png" />
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li ui-sref-active="active"><a ui-sref="home" class="ctl-menu-home"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Bienvenue</span></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle ctl-menu-club" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Le club</span><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="ctl-menu-board"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">C.A</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-master"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Professeurs</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-athlete"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Athlètes</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-awards"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Réalisations</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-goals"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Objectifs</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle ctl-menu-dojo" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="ctl-menu-icon"></i><span class="ctl-menu-text">Dojangs</span><span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="ctl-menu-location"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Auteuil-Vimont</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-location"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Fabreville</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-schedule"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Horaire</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-session"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Sessions</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle ctl-menu-information" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Informations</span><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="ctl-menu-communication"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Communiqués</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-documents"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Documents</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-calendar"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Calendrier</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-link"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Liens</span></a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle ctl-menu-multimedia" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Galleries</span><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="ctl-menu-images"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Images</span></a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#" class="ctl-menu-videos"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Vidéos</span></a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li ui-sref-active="active"><a ui-sref="about" class="ctl-menu-login"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Connexion</span></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ui-sref is a great directive for linking a state location with an anchor link.
+             You should almost always use ui-sref instead of href on your links when you want
+             then to navigate to a state. When this link is clicked it will take the application
+             to the 'home' state. Behind the scenes the directive also adds the correct href attr
+             and url. -->
+            <!--                <a class="brand" ui-sref="home">Acceuil</a>-->
+            <!--                <ul class="nav">-->
+
+            <!-- Here you can see ui-sref in action again. Also notice the use of $state.includes, which
+             will set the links to 'active' if, for example on the first link, 'contacts' or any of
+             its descendant states are activated. -->
+            <!--                    <li ng-class="{active: $state.includes('contacts')}"><a ui-sref="contacts.list">Contacts</a>
+                    </li>
+                    <li ui-sref-active="active"><a ui-sref="about">About</a>
+                    </li>
+                    <li ui-sref-active="active"><a ui-sref="about">Divers</a>
+                    </li>
+                    <li ui-sref-active="active"><a ui-sref="about">Multimédia</a>
+                    </li>-->
+            <!--                </ul>-->
+
+            <!-- Here is a named ui-view. ui-views don't have to be named, but we'll populate this
+             one from various different child states and we want a name to help us target. -->
+            <p ui-view="hint" class="navbar-text pull-right"></p>
+
+        </div>
+    </nav>
+
+    <!-- Here is the main ui-view (unnamed) and will be populated by its immediate children's templates
+         unless otherwise explicitly named views are targeted. It's also employing ng-animate. -->
+    <div ui-view class="container slide" style="padding-top: 80px;"></div>
+</body>
+
+</html>
