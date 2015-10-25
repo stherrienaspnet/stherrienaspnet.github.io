@@ -1,11 +1,5 @@
 body {
-
-    background-color: white;
-}
-
-.steph{
-      background-image: url('../img/background.jpg');
+    background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;  
-    position: absolute;
 }
