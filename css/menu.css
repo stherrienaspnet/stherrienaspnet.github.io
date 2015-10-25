@@ -1,5 +1,5 @@
 #bs-example-navbar-collapse-1 {
-    margin-left: 280px;
+    margin-left: 260px;
 }
 .ctl-logo-section {
     position: absolute;
@@ -25,7 +25,7 @@
       padding-right: 5px;
 }
 .navbar.navbar-default.navbar-static-top {
-    background-image: url('../img/texture1.jpg');
+    background-image: url('../img/menu-texture.png');
     background-repeat: repeat-x;
 }
 .nav.navbar-nav>li {
