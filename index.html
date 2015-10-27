@@ -23,7 +23,7 @@
     <!-- app.js declares the uiRouterSample module and adds items to $rootScope, and defines
          the "home" and "about" states
     -->
-    <script src="app/app.js"></script>  
+    <script src="app/app.js"></script>
 
     <!-- contacts.js declares the uiRouterSample.contacts module, and adds a number of contact
          related states 
@@ -44,13 +44,17 @@
     <nav class="navbar navbar-default navbar-static-top" style="height:35px;">
         <div class="container">
             <div class="ctl-logo-section">
-                <span class="ctl-menu-text">Club Taekwondo Laval</span>
-                <img src="img/logo.png" />
+                <a href="#" class="ctl-club-name">
+                   
+                                        <span class="ctl-menu-text">Club Taekwondo Laval</span>
+                    <img src="img/logo.png" />
+             
+
+                </a>
+
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li ui-sref-active="active"><a ui-sref="home" class="ctl-menu-home"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Bienvenue</span></a>
-                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle ctl-menu-club" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="ctl-menu-icon"></i><span class="ctl-menu-text">Le club</span><span class="caret"></span></a>
                         <ul class="dropdown-menu">

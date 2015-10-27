@@ -3,16 +3,35 @@
 }
 .ctl-logo-section {
     position: absolute;
-    left: 0px;
-    top: 4px;
+    left: 4px;
+    border: 1px solid lightgray;
+    width: 319px;
+    top: 3px;
+    height: 43px;
 }
-.ctl-logo-section>span {
+.ctl-logo-section>a>span {
     font-size: 22px;
     vertical-align: top;
     margin-top: 8px;
     display: inline-block;
     color: white;
-    font-style: italic
+}
+.ctl-logo-section>a {
+    display: inline-block;
+    margin: 1px;
+}
+.ctl-logo-section>a:hover {
+    background-color: #9bd72a;
+}
+.ctl-logo-section a:focus,
+.ctl-logo-section a:hover,
+{
+    text-decoration: none !important;
+    color: transparent !important;
+}
+.ctl-logo-section a {
+    color: transparent !important;
+    text-decoration: none !important;
 }
 .navbar-default .navbar-nav>.active>a {
     background-color: #9bd72a; //#2b83bd;
@@ -22,7 +41,7 @@
 .navbar-default .navbar-nav>li>a {
     padding-top: 5px;
     padding-left: 5px;
-      padding-right: 5px;
+    padding-right: 5px;
 }
 .navbar.navbar-default.navbar-static-top {
     background-image: url('../img/menu-texture.png');
@@ -41,13 +60,14 @@
     float: right;
     /* display: inline-block; */
     position: absolute;
-    right: 5px;
+    right: 4px;
 }
 .nav.navbar-nav {
     margin-top: 2px;
 }
 .navbar-nav>li>.dropdown-menu {
     margin-left: 5px;
+    margin-top: 1px;
 }
 .dropdown-menu .divider {
     margin-top: 2px;
@@ -100,7 +120,7 @@ li.active>a {
     color: white;
 }
 .navbar-default .navbar-nav>li.dropdown.open>a {
-    background-color: #2b83bd;
+    background-color: #007acc;
     background-image: none;
     color: white;
 }
@@ -162,7 +182,8 @@ span.caret {
 .ctl-menu-dojo>i {
     background-image: url('../img/menu/dojo-unselected.png');
 }
-.ctl-menu-dojo:hover>i {
+.ctl-menu-dojo:hover>i,
+.dropdown.open> .ctl-menu-dojo>i {
     background-image: url('../img/menu/dojo-selected.png');
 }
 .ctl-menu-club>i {
@@ -204,21 +225,18 @@ span.caret {
 .ctl-menu-home:hover>i {
     background-image: url('../img/menu/home-selected.png');
 }
-
 .ctl-menu-athlete>i {
     background-image: url('../img/menu/athlete-unselected.png');
 }
 .ctl-menu-athlete:hover>i {
     background-image: url('../img/menu/athlete-selected.png');
 }
-
 .ctl-menu-master>i {
     background-image: url('../img/menu/master-unselected.png');
 }
 .ctl-menu-master:hover>i {
     background-image: url('../img/menu/master-selected.png');
 }
-
 .ctl-menu-board>i {
     background-image: url('../img/menu/managment-unselected.png');
 }
