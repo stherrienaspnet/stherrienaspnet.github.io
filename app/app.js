@@ -62,7 +62,7 @@ angular.module('uiRouterSample', [
                 // For top level states, like this one, the parent template is
                 // the index.html file. So this template will be inserted into the
                 // ui-view within index.html.
-                template:''
+                template: ''
 
             })
 
@@ -73,6 +73,11 @@ angular.module('uiRouterSample', [
             .state('about', {
                 url: '/about',
                 templateUrl: '../app/views/about.html'
+            })
+
+            .state('board', {
+                url: '/board',
+                templateUrl: '../app/views/board.html'
             })
     }
   ]

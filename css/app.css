@@ -1,5 +1,17 @@
 body {
     background-image: url('../img/background_60.jpg');
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
+}
+.container.slide {
+    text-align: center;
+}
+.clt-page-title>img {
+    display: inline-block;
+    vertical-align: top;
+}
+.clt-page-title>p {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4px;
 }
