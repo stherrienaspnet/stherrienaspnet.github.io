@@ -2,8 +2,8 @@
     padding: 10px;
     text-align: left;
     color: white;
-    height: 460px;
-    width: 700px;
+    height: 474px;
+    width: 679px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(10, 9, 9);
@@ -20,10 +20,9 @@
     height: 140px;
     border-radius: 5px;
 }
-.ctl-board-member-image>img{
-   margin-top: 4px;
+.ctl-board-member-image>img {
+    margin-top: 4px;
 }
-
 .ctl-board-member {
     width: 140px;
     display: inline-block;
@@ -38,27 +37,30 @@
 }
 .ctl-board-vice-president {
     position: relative;
-    left: 353px;
+    left: 20px;
+    top: 35px;
 }
 .ctl-board-president {
     position: relative;
-    left: 40px;
+    left: 260px;
 }
 .ctl-board-tresory {
     position: relative;
-    left: 40px;
-    top: 24px;
+    left: 116px;
+    top: 35px;
 }
 .ctl-board-director {
     position: relative;
-    left: 353px;
-    top: 24px;
+    left: 209px;
+    top: 35px;
 }
-
-.ctl-club-member-logo{
+.ctl-club-member-logo {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 148px;
+}
+.ctl-board-connection{
   position: absolute;
-  margin-left: 300px;
-  margin-top: 148px;
-  
+  top: 279px;
+  left: 280px;
 }
-
