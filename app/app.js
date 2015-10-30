@@ -74,10 +74,13 @@ angular.module('uiRouterSample', [
                 url: '/about',
                 templateUrl: '../app/views/about.html'
             })
-
             .state('board', {
                 url: '/board',
                 templateUrl: '../app/views/board.html'
+            })
+            .state('links', {
+                url: '/links',
+                templateUrl: '../app/views/links.html'
             })
     }
   ]
