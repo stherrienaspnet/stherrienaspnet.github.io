@@ -66,10 +66,6 @@ angular.module('uiRouterSample', [
 
             })
 
-            ///////////
-            // About //
-            ///////////
-
             .state('about', {
                 url: '/about',
                 templateUrl: '../app/views/about.html'
@@ -82,6 +78,10 @@ angular.module('uiRouterSample', [
                 url: '/links',
                 templateUrl: '../app/views/links.html'
             })
+             .state('goals', {
+                url: '/goals',
+                templateUrl: '../app/views/goals.html'
+            })           
     }
   ]
 );
