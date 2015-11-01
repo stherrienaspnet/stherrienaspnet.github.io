@@ -71,17 +71,21 @@ angular.module('uiRouterSample', [
                 templateUrl: '../app/views/about.html'
             })
             .state('board', {
-                url: '/board',
+                url: '/ca',
                 templateUrl: '../app/views/board.html'
             })
             .state('links', {
-                url: '/links',
+                url: '/liens',
                 templateUrl: '../app/views/links.html'
             })
              .state('goals', {
-                url: '/goals',
+                url: '/objectifs',
                 templateUrl: '../app/views/goals.html'
-            })           
+            })     
+             .state('achievements', {
+                url: '/realisations',
+                templateUrl: '../app/views/achievements.html'
+            })                 
     }
   ]
 );
