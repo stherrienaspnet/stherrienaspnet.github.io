@@ -1,0 +1,12 @@
+.ctl-athletes-container{
+    height: 340px;
+    width: 679px;  
+}
+.ctl-construction{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.ctl-construction>label{
+    font-size: 24px;
+    color:##00adef;
+}

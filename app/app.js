@@ -85,7 +85,15 @@ angular.module('uiRouterSample', [
              .state('achievements', {
                 url: '/realisations',
                 templateUrl: '../app/views/achievements.html'
-            })                 
+            })  
+             .state('athletes', {
+                url: '/athletes',
+                templateUrl: '../app/views/athletes.html'
+            })     
+             .state('sessions', {
+                url: '/sessions',
+                templateUrl: '../app/views/sessions.html'
+            })               
     }
   ]
 );

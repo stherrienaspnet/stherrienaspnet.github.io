@@ -1,0 +1,70 @@
+.ctl-sessions-container {
+    height: 406px;
+    width: 542px;
+  }
+
+.container-fluid {
+    margin-top: 4px;
+    border: 1px solid darkgray;
+}
+.ctl-session-date-type {
+    color: #9bd72a;
+    font-size: 14px;
+}
+.row {
+    border-bottom: 1px solid darkgray;
+}
+.row:last-child {
+    border-bottom: 0px;
+}
+.col-xs-3, .col-xs-6 {
+    border-left: 1px solid darkgray;
+}
+
+.row .col-xs-3:first-child
+{
+    border-left-width: 0;
+}
+.ctl-session-start-date 
+    color: greenyellow;
+}
+.ctl-session-end-date {
+    color: #00adef;
+}
+.ctl-session-dojo {
+    width: 500px;
+   margin: 10px;
+       margin-top:15px;
+}
+
+.row>div{
+    text-align: center;
+}
+.ctl-dojo-name{
+    font-size: 16px;
+  margin-top: 2px;
+  margin-left: 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+.ctl-session-intro{
+    margin-left: 10px;
+      margin-right: 10px;
+}
+
+.container-fluid>.row:first-child{
+    background-color: cornflowerblue;
+}
+
+.container-fluid>.row:nth-child(3){
+    background-color: darkkhaki;
+}
+
+.container-fluid>.row:nth-child(3) span{
+    color:black
+}
+
+.ctl-session-intro:nth-child(3){
+    margin-top: 10px;
+}
+
