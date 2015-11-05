@@ -21,7 +21,7 @@
     margin: 1px;
 }
 .ctl-logo-section>a:hover {
-    background-color: #9bd72a;
+    background-color: #070d3d;
 }
 .ctl-logo-section a:focus,
 .ctl-logo-section a:hover,
@@ -34,7 +34,7 @@
     text-decoration: none !important;
 }
 .navbar-default .navbar-nav>.active>a {
-    background-color: #9bd72a; //#2b83bd;
+    background-color: #0D1B90; //#2b83bd;
     background-image: none;
     color: white;
 }
@@ -85,7 +85,7 @@
     color: gray
 }
 .dropdown-menu>li>a:hover {
-    background-color: #9bd72a;// #2b83bd;
+    background-color: #0D1B90;// #2b83bd;
     background-image: none;
     color: white;
 }
@@ -93,7 +93,7 @@
     color: white;
 }
 li.active>a {
-    background-color: #2b83bd;
+    background-color: #070d3d;
     background-image: none;
     color: white;
 }
@@ -115,12 +115,12 @@ li.active>a {
     margin-top: 3px;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    background-color: #9bd72a;
+    background-color: #070d3d;
     background-image: none;
     color: white;
 }
 .navbar-default .navbar-nav>li.dropdown.open>a {
-    background-color: #007acc;
+    background-color: #070d3d;
     background-image: none;
     color: white;
 }

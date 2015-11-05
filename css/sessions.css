@@ -53,15 +53,15 @@
 }
 
 .container-fluid>.row:first-child{
-    background-color: cornflowerblue;
+    background-color: #0D1B90;
 }
 
 .container-fluid>.row:nth-child(3){
-    background-color: darkkhaki;
+    background-color: #3c3c3c;
 }
 
 .container-fluid>.row:nth-child(3) span{
-    color:black
+    color:white
 }
 
 .ctl-session-intro:nth-child(3){
